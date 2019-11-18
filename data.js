@@ -75,24 +75,6 @@ let data = '{ \
 				"img/works/SmartPitch/4.jpg", \
 				"img/works/SmartPitch/5.jpg"] \
 		}, \
-	"qditor": {"title":"Qditor", \
-		"comment":"All-in-one Video Editing Tool", \
-		"responsible":"Entire technical part", \
-		"skills":"OpenCV / FFMpeg / OpenGL / GPU", \
-		"cover":"img/works/qditor/qditor_pc/main.jpg", \
-		"link":"", \
-		"video":"./img/works/qditor/video.mp4", \
-		"imgs":[ "img/works/qditor/qditor_pc/1.jpg", \
-				"img/works/qditor/qditor_pc/2.jpg", \
-				"img/works/qditor/qditor_pc/5.jpg", \
-				"img/works/qditor/qditor_pc/7.jpg", \
-				"img/works/qditor/qditor_pc/8.jpg", \
-				"img/works/qditor/qditor_pc/9.jpg", \
-				"img/works/qditor/qditor_mobile/1.jpg", \
-				"img/works/qditor/qditor_mobile/2.jpg", \
-				"img/works/qditor/qditor_mobile/3.jpg", \
-				"img/works/qditor/qditor_mobile/6.jpg"] \
-		}, \
 	"epub": {"title":"Epub3 Solution", \
 		"comment":"All-in-one Epub3 editor and viewer", \
 		"responsible":"Entire technical part", \
