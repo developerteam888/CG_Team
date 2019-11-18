@@ -1,0 +1,652 @@
+/* CSS Document */
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic, 'メイリオ', Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+  color: #333;
+  font-size: 15px;
+  line-height: 1.8;
+  letter-spacing: 0.8px;
+  word-break: break-all;
+}
+
+a {
+  color: #1ca9e3;
+  text-decoration: none;
+}
+
+a:hover, a:hover img {
+  opacity: .8;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -ms-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+}
+
+img, video, object {
+  max-width: 100%;
+  height: auto;
+  border: none;
+  vertical-align: bottom;
+  display: block;
+}
+
+ul, li {
+  list-style: none;
+}
+
+/*--------------------------------
+　全体
+---------------------------------*/
+
+#wrapper {
+  background-color: #f3f3f3;
+}
+
+.inner {
+  max-width: 1320px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+#contents {
+  /* padding: 100px 0; */
+}
+
+/*--------------------------------
+　ヘッダー
+---------------------------------*/
+
+#header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+  height: 480px;
+  background-size: auto 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45)), url(../img/header/rustic-3441673_1920.jpg) center center;
+}
+
+#header .logo {
+  display: block;
+}
+
+#header .logo-name {
+  display: block;
+  font-family: 'Yesteryear', cursive;
+  display: block;
+  position: relative;
+  top: -8px;
+  left: -60px;
+  font-size: 36px;
+  color: #d59fea;
+  -webkit-transform: rotate(-10deg);
+  transform: rotate(-10deg);
+}
+
+#header .logo-title {
+  font-family: 'Oswald', sans-serif;
+  font-size: 94px;
+  color: #fff;
+  line-height: 1;
+  letter-spacing: -2px;
+}
+
+#header .logo-desc {
+  display: block;
+  font-size: 36px;
+  text-align: center;
+  margin-top: 30px;
+  color: #fff;
+}
+
+/*--------------------------------
+　グローバルナビ
+---------------------------------*/
+
+#gnav {
+  padding: 10px;
+  font-family: 'Open sans', sans-serif;
+  z-index: 100;
+}
+
+#gnav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+#gnav li {
+  font-weight: bold;
+  font-size: 18px;
+  padding: 0 20px;
+}
+
+#gnav li:last-child {
+  margin-right: 0;
+}
+
+#gnav li a {
+  color: #333;
+  letter-spacing: -0.01em;
+  margin-left: 12px;
+}
+
+#gnav.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f3f3f3;
+  box-shadow: 0px 6px 3px -3px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0px 6px 3px -3px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 6px 3px -3px rgba(0, 0, 0, 0.2);
+  transform: translate3d(0, 0, 0);
+}
+
+/*--------------------------------
+　Section
+---------------------------------*/
+
+.section .inner {
+  /* padding: 80px 10px; */
+  padding: 80px 10px 10px 0px;
+}
+
+.section .section-title-block {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.section .section-title {
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: -0.01em;
+  display: inline-block;
+  font-size: 56px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #444;
+}
+
+.section .section-desc {
+  text-align: center;
+}
+
+.two-column-wrapper {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.two-column-image {
+  width: 33%;
+}
+
+.two-column-image img {
+  margin: 0 auto;
+}
+
+.two-column-desc {
+  width: 62%;
+}
+
+/*--------------------------------
+　Latestworks
+---------------------------------*/
+
+#latestworks .two-column-image {
+  width: 48%;
+}
+
+#latestworks .two-column-desc {
+  width: 48%;
+}
+
+/*--------------------------------
+　WORKS
+---------------------------------*/
+
+#works .card {
+  width: 32%;
+}
+
+#works .card {
+  margin-bottom: 50px;
+}
+
+#works .card-image {
+  display: block;
+  margin-bottom: 8px;
+  height: 245px;
+}
+
+#works .card-caption {
+  text-align: center;
+}
+
+#works .card-caption-title {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#works .card-caption-info {
+  font-size: 12px;
+}
+
+#works .card-caption-url {
+  font-size: 10px;
+}
+
+#works .card-wrapper {
+  padding: 20px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+/*--------------------------------
+　About
+---------------------------------*/
+
+#about .two-column-image {
+  width: 33%;
+}
+
+#about .two-column-desc {
+  width: 62%;
+}
+
+/*--------------------------------
+ SKILL
+---------------------------------*/
+
+#skill .card-wrapper {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+#skill .card {
+  flex-basis: 46%;
+  margin-bottom: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+#skill .card:first-child {
+  /*flex-basis: 100%;*/
+}
+
+#skill .skill-icon {
+  flex-basis: 75px;
+}
+
+#skill .skill-icon img {
+  width: 75px;
+}
+
+#skill .skill-desc {
+  flex-basis: calc(100% - 75px - 30px);
+  text-align: center;
+}
+
+#skill .skill-desc-title {
+  margin-bottom: 3px;
+  font-size:26px;
+  padding: 24px;
+  font-weight: bold;
+}
+
+#skill .skill-desc-title i{
+  margin-right: 12px;
+}
+
+#skill .rate {
+  position: relative;
+  display: inline-block;
+  width: 110px;
+  height: 20px;
+  font-size: 20px;
+}
+
+#skill .rate:before, #skill .rate:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '★★★★★';
+  display: inline-block;
+  height: 20px;
+  line-height: 20px;
+}
+
+#skill .rate:before {
+  color: #ddd;
+}
+
+#skill .rate:after {
+  color: #0080f1;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+#skill .rate1:after {
+  width: 20px;
+}
+
+#skill .rate2:after {
+  width: 40px;
+}
+
+#skill .rate3:after {
+  width: 60px;
+}
+
+#skill .rate4:after {
+  width: 80px;
+}
+
+#skill .rate5:after {
+  width: 100px;
+}
+
+/*--------------------------------
+ CONTACT
+---------------------------------*/
+
+#contact .contact-list {
+  padding: 20px 0;
+}
+
+#contact .contact-list ul {
+  width: 40%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  align-self: flex-end;
+  ;
+}
+
+#contact .contact-list li {
+  text-align: center;
+}
+
+#contact .contact-list li a {
+  color: #333;
+}
+
+#contact .contact-list li img {
+  width: 60px;
+  margin: 0 auto 5px;
+  border-radius:50%;
+}
+
+#contact .contact-list-desc {
+  font-weight: bold;
+}
+
+/*--------------------------------
+ Footer
+---------------------------------*/
+
+#footer {
+  background-color: #333;
+}
+
+#footer .inner {
+  padding: 30px;
+}
+
+#footer .footer-link ul {
+  margin-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  justify-content: center;
+}
+
+#footer .footer-link li {
+  font-size: 12px;
+  padding: 0 20px;
+}
+
+#footer .footer-link li a {
+  color: #fff;
+  font-weight: bold;
+}
+
+#footer .copyright {
+  font-size: 10px;
+  color: #8c8c8c;
+  text-align: center;
+}
+
+/*media Queries 767
+----------------------------------------------------*/
+
+@media screen and (max-width: 767px) {
+  body {
+    font-size: 13px;
+    line-height: 1.7;
+  }
+  #header {
+    height: 200px;
+  }
+  #header .logo-title {
+    font-size: 56px;
+  }
+  #header .logo-name {
+    top: 0;
+    left: -30px;
+    font-size: 25px;
+  }
+  #header .logo-desc {
+    font-size: 11px;
+  }
+  #gnav li {
+    font-size: 14px;
+    padding: 0 10px;
+  }
+  #gnav li a:hover {
+    opacity: 1;
+  }
+  #contents {
+    padding: 40px 0;
+  }
+  .section .inner {
+    padding: 30px 15px;
+  }
+  .section .section-title-block {
+    margin-bottom: 10px;
+  }
+  .section .section-title {
+    font-size: 36px;
+  }
+  #latestworks .two-column-wrapper {
+    width: 100%;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  #latestworks .two-column-image {
+    width: 90%;
+    margin: 0 auto 20px;
+  }
+
+  #latestworks .two-column-desc {
+    width: 100%;
+  }
+  #works .card {
+    width: 48%;
+  }
+  #works .card-caption-title {
+    font-size: 12px;
+  }
+  #works .card-caption-info {
+    font-size: 11px;
+  }
+  #about .two-column-wrapper {
+    width: 100%;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  #about .two-column-image {
+    width: 50%;
+    margin: 0 auto 20px;
+  }
+  #about .two-column-desc {
+   width: 100%;
+ }
+
+  #skill .card-wrapper {
+    width: 100%;
+  }
+  #skill .card {
+    flex-basis: 100%;
+  }
+  #skill .skill-icon {
+    flex-basis: 45px;
+  }
+  #skill .skill-icon img {
+    width: 45px;
+  }
+  #skill .skill-desc {
+    flex-basis: calc(100% - 45px - 10px);
+  }
+  #skill .rate {
+    height: 15px;
+    font-size: 15px;
+  }
+  #skill .rate:before, #skill .rate:after {
+    height: 15px;
+    line-height: 15px;
+  }
+  #skill .rate1:after {
+    width: 15px;
+  }
+  #skill .rate2:after {
+    width: 30px;
+  }
+  #skill .rate3:after {
+    width: 45px;
+  }
+  #skill .rate4:after {
+    width: 60px;
+  }
+  #skill .rate5:after {
+    width: 75px;
+  }
+  #contact .contact-list ul {
+    width: 100%;
+  }
+  #contact .contact-list li {
+    flex-basis: 30%;
+  }
+  #contact .contact-list li img {
+    width: 30px;
+  }
+  #contact .contact-list-desc {
+    font-size: 12px;
+  }
+  #footer .inner {
+    padding: 20px 0;
+  }
+  #footer .footer-link li {
+    font-size: 10px;
+    padding: 0 10px;
+    margin-bottom: 5px;
+  }
+
+ .profile img {
+  /* border-radius: 50%; 
+  border: 4px solid GREEN; */
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    object-fit: cover; /* ADD */
+ }
+}
+
+.profile img {
+  border-radius: 50%;
+}
+
+.contact-img{
+  border-radius: 50%;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    object-fit: cover; /* ADD */
+}
+
+.section-title-css{
+  margin-left: 12px;
+}
+
+.table{
+  text-align: center;
+}
+
+@media only screen and (max-width: 540px) {
+  #gnav li {
+    font-size: 8px;
+  }
+}

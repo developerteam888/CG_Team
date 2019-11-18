@@ -1,0 +1,460 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+  <meta property='og:type' content='website'>
+  <meta property='og:title' content='CG developerteam portfolio'>
+  <meta property='og:url' content='URL入る'>
+  <meta property='og:description' content="CG developerteam team's portfolio">
+  <meta property="og:image" content="img/ogp.png">
+  <meta name="description" content="CG developerteam team's portfolio" />
+  <title>3Ddev portfolio</title>
+  <link href="https://fonts.googleapis.com/css?family=Yesteryear" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oswald:700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:700" rel="stylesheet">
+  <link href="css/reset.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/photoswipe/photoswipe.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/photoswipe/default-skin/default-skin.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/modal-video.min.css" rel="stylesheet" >
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  <link rel="shortcut icon" href="img/logo2.jpg" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-150847391-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-150847391-1');
+</script>
+
+
+<style>
+  /* Make the image fully responsive */
+  
+  .gallery-title{
+    font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic, 'メイリオ', Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+    position:absoltute;
+    color:white;
+    left:0px;
+    width:100%;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 47px; 
+  }
+  
+  .pswp__caption { left: 0; width: 250px; right: auto; top: 44px; }
+  .pswp__caption__center{
+    font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic, 'メイリオ', Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+    color: white;
+    font-size: 15px;
+    line-height: 1.8;
+    letter-spacing: 0.8px;
+    word-break: break-all;
+  }
+
+  .card:hover, .card:focus {
+    -webkit-box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.4);
+    border: 1px solid transparent;
+    border-top: 2px solid #007bff;
+    top: -2px; }
+  .card *:last-child {
+    margin-bottom: 0; }
+  .card h3 {
+    font-size: 1.1rem;
+    color: #000; }
+  .card p {
+    color: #999999;
+    font-size: 1rem; 
+    }
+
+  .detail-subject{
+    font-weight: bold;
+    margin-bottom:0px !important;
+  }
+  .detail-overview{
+    margin-left:5px;
+    color:#dddddd;
+  }
+  .detail-responsible{
+    margin-left:5px;
+    color:#dddddd;
+  }
+  .detail-skills{
+    margin-left:5px;
+    color:#dddddd;
+  }
+
+  </style>
+</head>
+
+<body>
+  <div id="wrapper">
+    <header id="header">
+      <h1 class="logo">
+        <span class="logo-title">CG Developerteam portfolio</span>
+        <span class="logo-desc">CG.AI.Web Development Team</span>
+      </h1>
+    </header>
+    <nav id="gnav">
+      <ul>
+        <li><i class="fas fa-user fa-lg"><a href="#Profile">PROFILE</a></i></li>
+        <li><i class="fas fa-lightbulb fa-lg"><a href="#skill">SKILL</a></i></li>
+        <li><i class="fas fa-tasks fa-lg"><a href="#works">WORKS</a></i></li>
+        <li><i class="fas fa-envelope fa-lg"><a href="#contact">CONTACT</a></i></li>
+      </ul>
+    </nav>
+    <main id="contents">
+
+      <section class="section" id="Profile">
+        <div class="inner">
+          <div class="section-title-block">
+            <h2 class="section-title"><i class="fas fa-user"><span class="section-title-css">PROFILE</span></i></h2>
+          </div>
+          <div class="two-column-wrapper">
+            <div class="two-column-image profile">
+              <img src="img/profile/profile.JPG" alt="">
+            </div>
+            <div class="two-column-desc">
+              <p class="text">Computer Graphics - Artificial Intelligence - Web Development Team!<br/>
+We specialize in 3D applications using OpenGL, ARKit, ARCore, Microsoft Hololens, OpenXR, Kinect SDK, WebGL, three.js, Babylon, Cocos2D, and Unity. We are also experts in C/C++, OpenCV, Java, C#, Python, javascript, HTML5, CUDA, GLSL, Swift,Object-C,Unity3D and much more. 
+With greate experience with Deep Learning techniques such as Caffe, Tensorflow, we developed Natural Language Processing programs, challenging to a greate solution combining CG, AI, Web techniques.    
+Whatever your need, we can bring your project to life!
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section class="section" id="skill">
+        <div class="inner">
+          <div class="section-title-block">
+            <h2 class="section-title"><i class="fas fa-lightbulb fa-lg"><span class="section-title-css">SKILL</span></i></h2>
+            <p class="section-desc"></p>
+          </div>
+          <div class="card-wrapper">
+
+            <div class="card">
+              <div class="skill-desc">
+                <h3 class="skill-desc-title"><i class="fas fa-brain"></i>Artificial Intelligence</h3>
+                <p>Recently, using tensorflow for NLP</p>
+                <table class="table table-borderless">
+                  <thead>
+                    <tr>
+                      <th scope="col">Skill</th>
+                      <th scope="col">Duration</th>
+                      <th scope="col">Rate</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">Python</th>
+                      <td>3 years</td>
+                      <td><span class="rating"><p class="rate rate5"></p></span></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Machine learning</th>
+                      <td>5 years</td>
+                      <td><span class="rating"><p class="rate rate5"></p></span></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Java</th>
+                      <td>5 years</td>
+                      <td><span class="rating"><p class="rate rate4"></p></span></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">R</th>
+                      <td>2 years</td>
+                      <td><span class="rating"><p class="rate rate3"></p></span></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Data mining</th>
+                      <td>2 years</td>
+                      <td><span class="rating"><p class="rate rate4"></p></span></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="skill-desc">
+                <h3 class="skill-desc-title"><i class="fas fa-cubes"></i>Computer Graphics</h3>
+                <p>Using Unity3D, three.js for graphic Front-end</p>
+                <table class="table table-borderless">
+                  <thead>
+                    <tr>
+                      <th scope="col">Skill</th>
+                      <th scope="col">Duration</th>
+                      <th scope="col">Rate</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">OpenGL</th>
+                      <td>7 years</td>
+                      <td><span class="rating"><p class="rate rate5"></p></span></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">GLSL</th>
+                      <td>3 years</td>
+                      <td><span class="rating"><p class="rate rate4"></p></span></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">WebGL</th>
+                      <td>4 years</td>
+                      <td><span class="rating"><p class="rate rate4"></p></span></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Unity</th>
+                      <td>5 years</td>
+                      <td><span class="rating"><p class="rate rate4"></p></span></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Babylon.js</th>
+                      <td>2 years</td>
+                      <td><span class="rating"><p class="rate rate3"></p></span></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Three.js</th>
+                      <td>2 years</td>
+                      <td><span class="rating"><p class="rate rate5"></p></span></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">ARKit</th>
+                      <td>3 years</td>
+                      <td><span class="rating"><p class="rate rate4"></p></span></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+        
+
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="works">
+        <div class="inner">
+          <div class="section-title-block">
+            <h2 class="section-title"><i class="fas fa-tasks fa-lg"><span class="section-title-css">WORKS</span></i></h2>
+            <div class="section-desc"></div>
+          </div>
+          <div class="card-wrapper my-gallery" id="work_gallery">
+   
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="contact">
+        <div class="inner">
+          <div class="section-title-block">
+            <h2 class="section-title"><i class="fas fa-envelope fa-lg"><span class="section-title-css">CONTACT</span></i></h2>
+            <p class="section-desc">
+              We're ready to serve you!
+            </p>
+              <p class="section-desc">
+                  <b>Email:</b> erxking1234@gmail.com
+                </p>
+              <p class="section-desc">
+                  <b>Skype:live:.cid.9a8ac0ed711754ba</b> 
+              </p>
+          </div>
+          
+        </div>
+      </section>
+    </main>
+    <footer id="footer">
+      <div class="inner">
+        <nav class="footer-link">
+          <ul>
+            <li><a href="#Profile">Profile</a></li>
+            <li><a href="#skill">SKILL</a></li>
+            <li><a href="#works">WORKS</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </nav>
+        <p class="copyright">Copyright&copy;developerteam. All Rights Reserved.</p>
+      </div>
+    </footer>
+  </div>
+
+
+  <!-- Root element of PhotoSwipe. Must have class pswp. -->
+  <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe.
+           It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+      <!-- Container that holds slides.
+              PhotoSwipe keeps only 3 of them in the DOM to save memory.
+              Don't modify these 3 pswp__item elements, data is added later on. -->
+      <div class="pswp__container">
+        <div class="pswp__item"></div>
+        <div class="pswp__item"></div>
+        <div class="pswp__item"></div>
+      </div>
+
+      <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+      <div class="pswp__ui pswp__ui--hidden">
+
+        <div class="pswp__top-bar">
+
+          <!--  Controls are self-explanatory. Order can be changed. -->
+
+          <div class="pswp__counter"></div>
+
+          <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+          <div class="gallery-title">Toesox(Socks Shop Site)</div>
+
+          <div class="pswp__preloader">
+            <div class="pswp__preloader__icn">
+              <div class="pswp__preloader__cut">
+                <div class="pswp__preloader__donut"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+          <div class="pswp__share-tooltip"></div>
+        </div>
+
+        <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+        <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+
+        <div class="pswp__caption">
+          <div class="pswp__caption__center">
+            <p class='detail-subject'>Overview:</p>
+            <p class='detail-overview'></p>
+            <p class='detail-subject'>Responsible for:</p>
+            <p class='detail-responsible'></p>
+            <p class='detail-subject'>Skills:</p>
+            <p class='detail-skills'></p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script type='text/javascript' src="js/photoswipe/photoswipe.min.js"></script>
+  <script type='text/javascript' src="js/photoswipe/photoswipe-ui-default.js"></script>
+  <script type='text/javascript' src="js/photoswipe/photoswipe_setup.js"></script>
+  <script type='text/javascript' src="js/modalvideo/jquery-modal-video.min.js"></script>
+  <script type='text/javascript' src="js/script.js"></script>
+  <script type="text/javascript" src="data.js"></script>
+  <script>
+    data = data.replace(/\\n/g, "\\n")  
+                .replace(/\\'/g, "\\'")
+                .replace(/\\"/g, '\\"')
+                .replace(/\\&/g, "\\&")
+                .replace(/\\r/g, "\\r")
+                .replace(/\\t/g, "\\t")
+                .replace(/\\b/g, "\\b")
+                .replace(/\\f/g, "\\f");
+    // remove non-printable and other non-valid JSON chars
+    data = data.replace(/[\u0000-\u0019]+/g,""); 
+    var gdata = JSON.parse(data).data;
+    for(var key in gdata) {
+        var item = gdata[key];
+        var img_data = [];
+        for(var j = 0; j < item.imgs.length; j++)
+          img_data.push({"w": 0, "h": 0, "title":true, "src":item.imgs[j]});
+        item.imgs = img_data;
+    }
+    
+    buildPage();
+
+    function onWork(id)
+    {
+      var pswpElement = document.querySelectorAll('.pswp')[0];
+      var title = document.querySelectorAll('.gallery-title')[0];
+      title.innerHTML = gdata[id].title;
+      // build items array
+      var items = gdata[id].imgs;
+
+      // define options (if needed)
+      var options = {
+          // optionName: 'option value'
+          // for example:
+          index: 0, // start at first slide
+          barsSize: {top:44, bottom:0},
+          bgOpacity:0.7,
+          addCaptionHTMLFn: function(item, captionEl, isFake) {
+            var cap_em = $(captionEl.children[0]);
+            cap_em.find(".detail-overview")[0].innerHTML = gdata[id].comment;
+            cap_em.find(".detail-responsible")[0].innerHTML = gdata[id].responsible;
+            cap_em.find(".detail-skills")[0].innerHTML = gdata[id].skills;
+
+            return true;
+        },
+      };
+
+      // Initializes and opens PhotoSwipe
+      var gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options);
+
+      gallery.listen('gettingData', function(index, item) {
+          if (!item.w || !item.h) 
+          { // unknown size
+            var img = new Image(); 
+            img.onload = function() { // will get size after load
+              item.w = this.width; // set image width
+              item.h = this.height; // set image height
+                gallery.invalidateCurrItems(); // reinit Items
+                gallery.updateSize(true); // reinit Items
+            }
+            img.src = item.src; // let's download image
+          }
+      });
+
+      gallery.init();
+    }
+    
+    function buildPage()
+    {
+      $work_list = $("#work_gallery");
+      for(var key in gdata) {
+        var item = gdata[key];
+
+        $figure = $("<figure>", {"class": "card"});
+        $figure.append($("<img>", {"class":"card-image", "src":item["cover"], "onclick":"onWork('"+key+"')"}));
+        $figcaption = $("<figcaption>", {"class": "card-caption"});
+        $figcaption.append($("<p>", {"class":"card-caption-title"}).text(item["title"]));
+        $figcaption.append($("<p>", {"class":"card-caption-info"}).text(item["comment"]));
+        $figcaption.append($("<p>", {"class":"card-caption-info"}).text(item["skills"]));
+        if(item["link"] !== "")
+          $figcaption.append($("<p>", {"class":"card-caption-info"}).append($("<a>", {"href":item["link"], "class":"url-link"}).text("Link")));
+        else if(item["video"] !== "")
+          $figcaption.append($("<p>", {"class":"card-caption-info"}).append($("<a>", {"href":"#", "class":"js-video-button url-link", "data-channel":"video", "data-video-url":item["video"]}).text("Video")));
+        $figure.append($figcaption);
+
+        $work_list.append($figure);
+      }
+    }
+		
+$(document).ready(function(){
+
+  $(".js-video-button").modalVideo({
+			youtube:{
+				controls:0,
+				nocookie: true
+			}
+		});
+});
+</script>
+</body>
+</html>
