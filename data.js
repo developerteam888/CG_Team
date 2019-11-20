@@ -273,10 +273,10 @@ let data = '{ \
 				"img/works/unity/AR/dragonFight3.jpg", \
 				"img/works/unity/AR/dragonFight4.jpg"] \
 		},\
-	"arpeople": {"title":"AR based people finder", \
+	"arpeople": {"title":"AR & AI based people finder", \
 		"comment":"People finder mobile app based on AR tech", \
 		"responsible":"Entire technical part", \
-		"skills":"ARKit / Vuforia", \
+		"skills":"ARKit / Vuforia / CNN", \
 		"cover":"img/works/arpeople/1.jpg", \
 		"link":"", \
 		"video":"", \
