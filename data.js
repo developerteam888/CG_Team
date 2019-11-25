@@ -266,7 +266,7 @@ let data = '{ \
 		"responsible":"Entire technical part", \
 		"skills":"ARKit,Unity3D", \
 		"cover":"img/works/unity/AR/dragonFight1.jpg", \
-		"link":"https://photos.app.goo.gl/etEkCMwNq5PTBitQ8", \
+		"link":"https://youtu.be/dkXdjoBHzXU", \
 		"video":"", \
 		"imgs":[ "img/works/unity/AR/dragonFight1.jpg", \
 				"img/works/unity/AR/dragonFight2.jpg", \
