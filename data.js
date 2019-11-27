@@ -18,10 +18,10 @@ let data = '{ \
 		"cover":"img/works/SLAM-AR/SLAM1.jpg", \
 		"link":"https://photos.app.goo.gl/bWtSs4uogHLMMzwx7", \
 		"video":"", \
-		"imgs":[ "img/SLAM-AR/SLAM1.jpg", \
-				"img/SLAM-AR/SLAM2.jpg", \
-				"img/SLAM-AR/SLAM3.jpg", \
-				"img/SLAM-AR/SLAM4.jpg"] \
+		"imgs":[ "img/works/SLAM-AR/SLAM1.jpg", \
+				"img/works/SLAM-AR/SLAM2.jpg", \
+				"img/works/SLAM-AR/SLAM3.jpg", \
+				"img/works/SLAM-AR/SLAM4.jpg"] \
 		}, \
 	"ski": {"title":"Go for the gold experience", \
 		"comment":"Ski jumping, Speed skating simulation game", \
