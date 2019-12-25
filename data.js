@@ -102,16 +102,17 @@ let data = '{ \
 		"comment":"Poker, Blackjack, Roulette", \
 		"responsible":"Entire technical part", \
 		"skills":"Unity3D", \
-		"cover":"img/works/blackjack/1.jpg", \
+		"cover":"img/works/blackjack/poker02.jpg", \
 		"link":"", \
-		"video":"./img/works/blackjack/video.mp4", \
-		"imgs":[ "img/works/blackjack/1.jpg",\
-				"img/works/blackjack/2.jpg", \
+		"video":"./img/works/blackjack/blackjack.mp4", \
+		"imgs":[ "img/works/blackjack/poker01.jpg",\
+				"img/works/blackjack/poker02.jpg", \
+				"img/works/blackjack/poker.jpg", \
+				"img/works/blackjack/poker1.jpg", \
+				"img/works/blackjack/poker2.jpg", \
+				"img/works/blackjack/poker3.jpg", \
 				"img/works/blackjack/3.jpg", \
-				"img/works/blackjack/4.jpg", \
-				"img/works/blackjack/5.jpg", \
-				"img/works/blackjack/6.jpg", \
-				"img/works/blackjack/7.jpg"] \
+				"img/works/blackjack/4.jpg"] \
 		},\
 	"jwviewer": {"title":"JW CAD Viewer", \
 		"comment":"Mobile version CAD Viewer for JWW, JWC, and DXF", \
