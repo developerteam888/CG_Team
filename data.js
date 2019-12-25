@@ -104,7 +104,7 @@ let data = '{ \
 		"skills":"Unity3D", \
 		"cover":"img/works/blackjack/1.jpg", \
 		"link":"", \
-		"video":"./img/works/blackjack/video.mp4", \
+		"video":"", \
 		"imgs":[ "img/works/blackjack/1.jpg",\
 				"img/works/blackjack/2.jpg", \
 				"img/works/blackjack/3.jpg", \
