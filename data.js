@@ -75,19 +75,19 @@ let data = '{ \
 				"img/works/SmartPitch/4.jpg", \
 				"img/works/SmartPitch/5.jpg"] \
 		}, \
-	"epub": {"title":"Epub3 Solution", \
-		"comment":"All-in-one Epub3 editor and viewer", \
+	"FaceTracking": {"title":"AR Face Tracking", \
+		"comment":"Face Tracking using ARkit3.0", \
 		"responsible":"Entire technical part", \
-		"skills":"Epub3 / Text Engine / Qt / iOS / Android", \
-		"cover":"img/works/epub/main.jpg", \
-		"link":"https://github.com/developerteam888/epubSolution", \
+		"skills":"ARkit3.0 / Unity Engine", \
+		"cover":"img/works/faceTracking/main.jpg", \
+		"link":"https://photos.app.goo.gl/QTrRH7koFJuTmE9x5", \
 		"video":"", \
-		"imgs":[ "img/works/epub/1.jpg", \
-				"img/works/epub/2.jpg", \
-				"img/works/epub/3.jpg", \
-				"img/works/epub/4.jpg", \
-				"img/works/epub/5.jpg", \
-				"img/works/epub/6.jpg"] \
+		"imgs":[ "img/works/faceTracking/1.jpg", \
+				"img/works/faceTracking/2.jpg", \
+				"img/works/faceTracking/main.jpg", \
+				"img/works/faceTracking/1.jpg", \
+				"img/works/faceTracking/2.jpg", \
+				"img/works/faceTracking/main.jpg"] \
 		}, \
 	"3dwebpage": {"title":"Creative Live", \
 		"comment":"3D visualized landing page", \
@@ -97,14 +97,14 @@ let data = '{ \
 		"link":"", \
 		"video":"", \
 		"imgs":[ "img/works/3dwebpage/1.jpg"] \
-		},\
+		}, \
 	"blackjack": {"title":"3D Poker Game", \
 		"comment":"Poker, Blackjack, Roulette", \
 		"responsible":"Entire technical part", \
 		"skills":"Unity3D", \
 		"cover":"img/works/blackjack/poker02.jpg", \
-		"link":"", \
-		"video":"./img/works/blackjack/blackjack.mp4", \
+		"link":"https://photos.app.goo.gl/hfM9BHGhKaRZnfdU6", \
+		"video":".", \
 		"imgs":[ "img/works/blackjack/poker01.jpg",\
 				"img/works/blackjack/poker02.jpg", \
 				"img/works/blackjack/poker.jpg", \
@@ -113,8 +113,8 @@ let data = '{ \
 				"img/works/blackjack/poker3.jpg", \
 				"img/works/blackjack/3.jpg", \
 				"img/works/blackjack/4.jpg"] \
-		},\
-	"jwviewer": {"title":"JW CAD Viewer", \
+		}, \
+		"jwviewer": {"title":"JW CAD Viewer", \
 		"comment":"Mobile version CAD Viewer for JWW, JWC, and DXF", \
 		"responsible":"Entire technical part", \
 		"skills":"CAD Engine, C++, Objective-C", \
