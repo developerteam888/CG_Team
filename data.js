@@ -14,7 +14,7 @@ let data = '{ \
 	"SLAM AR": {"title":"AR based on SLAM", \
 		"comment":"This is an ar project based on SLAM.", \
 		"responsible":"Entire technical part", \
-		"skills":"SLAM,ARkit", \
+		"skills":"SLAM,ARKit", \
 		"cover":"img/works/SLAM-AR/SLAM1.jpg", \
 		"link":"https://photos.app.goo.gl/bWtSs4uogHLMMzwx7", \
 		"video":"", \
@@ -34,6 +34,18 @@ let data = '{ \
 				"img/works/ski/2.jpg", \
 				"img/works/ski/3.jpg", \
 				"img/works/ski/4.jpg"] \
+		}, \
+		"ski": {"title":"3D Ad about product", \
+		"comment":"3D Ad", \
+		"responsible":"Entire technical part", \
+		"skills":"WebGL/AR/VR", \
+		"cover":"img/works/PlaceAR/1.jpg", \
+		"link":"http://vision3d.visionlab.de/car/", \
+		"video":"./img/works/PlaceAR/video.mp4", \
+		"imgs":[ "img/works/PlaceAR/1.jpg", \
+				"img/works/PlaceAR/2.jpg", \
+				"img/works/PlaceAR/3.jpg", \
+				"img/works/PlaceAR/4.jpg"] \
 		}, \
 	"Driving VR": {"title":"Driving VR", \
 		"comment":"We can dirve the car in VR space", \
@@ -175,7 +187,9 @@ let data = '{ \
 		"cover":"img/works/xplane/1.jpg", \
 		"link":"", \
 		"video":"", \
-		"imgs":[ "img/works/xplane/1.jpg"] \
+		"imgs":[ "img/works/xplane/1.jpg", \
+				"img/works/xplane/2.jpg", \
+				"img/works/xplane/3.jpg"] \
 		},\
 	"room3d": {"title":"PickMe3D", \
 		"comment":"Furniture Layout & Space Allocation Simulator", \
@@ -186,10 +200,10 @@ let data = '{ \
 		"video":"", \
 		"imgs":[ "img/works/room3d/1.jpg"] \
 		},\
-	"masked face": {"title":"masked face VR", \
+	"masked face": {"title":"masked face AR", \
 		"comment":"We can make our face with masked", \
 		"responsible":"Entire technical part", \
-		"skills":"CG", \
+		"skills":"Unity3D, AR Face Tracking", \
 		"cover":"img/works/unity/AR/masked1.jpg", \
 		"link":"https://photos.app.goo.gl/zv9WPpYkf1Vv7Z3R8", \
 		"video":"", \
@@ -204,7 +218,9 @@ let data = '{ \
 		"cover":"img/works/objectdetect/1.jpg", \
 		"link":"", \
 		"video":"", \
-		"imgs":[ "img/works/objectdetect/1.jpg"] \
+		"imgs":[ "img/works/objectdetect/1.jpg", \
+				"img/works/objectdetect/2.jpg", \
+				"img/works/objectdetect/3.jpg"] \
 		},\
 	"Counter strike": {"title":"Counter Strike VR", \
 		"comment":"We can enjoy counter strike in VR space", \
@@ -251,7 +267,10 @@ let data = '{ \
 		"cover":"img/works/gpdesign/1.jpg", \
 		"link":"", \
 		"video":"", \
-		"imgs":[ "img/works/gpdesign/1.jpg"] \
+		"imgs":[ "img/works/gpdesign/1.jpg", \
+				"img/works/gpdesign/2.jpg", \
+				"img/works/gpdesign/3.jpg", \
+				"img/works/gpdesign/4.jpg"] \
 		},\
 	"Visiting AR": {"title":"Visiting AR", \
 		"comment":"We can go anywhere using AR", \
