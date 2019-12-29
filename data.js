@@ -15,12 +15,10 @@ let data = '{ \
 		"comment":"This is an ar project based on SLAM.", \
 		"responsible":"Entire technical part", \
 		"skills":"SLAM,ARKit", \
-		"cover":"img/works/SLAM-AR/SLAM1.jpg", \
-		"link":"https://photos.app.goo.gl/bWtSs4uogHLMMzwx7", \
+		"cover":"img/works/SLAM-AR/SLAM4.jpg", \
+		"link":"https://photos.app.goo.gl/uswYjyD23ZcNKnAr6", \
 		"video":"", \
-		"imgs":[ "img/works/SLAM-AR/SLAM1.jpg", \
-				"img/works/SLAM-AR/SLAM2.jpg", \
-				"img/works/SLAM-AR/SLAM3.jpg", \
+		"imgs":[ "img/works/SLAM-AR/SLAM3.jpg", \
 				"img/works/SLAM-AR/SLAM4.jpg"] \
 		}, \
 	"ski": {"title":"Go for the gold experience", \
@@ -114,17 +112,17 @@ let data = '{ \
 		"comment":"Poker, Blackjack, Roulette", \
 		"responsible":"Entire technical part", \
 		"skills":"Unity3D", \
-		"cover":"img/works/blackjack/poker02.jpg", \
-		"link":"https://photos.app.goo.gl/hfM9BHGhKaRZnfdU6", \
+		"cover":"img/works/blackjack/1.jpg", \
+		"link":"", \
 		"video":".", \
-		"imgs":[ "img/works/blackjack/poker01.jpg",\
-				"img/works/blackjack/poker02.jpg", \
-				"img/works/blackjack/poker.jpg", \
-				"img/works/blackjack/poker1.jpg", \
-				"img/works/blackjack/poker2.jpg", \
-				"img/works/blackjack/poker3.jpg", \
+		"imgs":[ "img/works/blackjack/1.jpg",\
+				"img/works/blackjack/2.jpg", \
 				"img/works/blackjack/3.jpg", \
-				"img/works/blackjack/4.jpg"] \
+				"img/works/blackjack/4.jpg", \
+				"img/works/blackjack/5.jpg", \
+				"img/works/blackjack/6.jpg", \
+				"img/works/blackjack/7.jpg", \
+				"img/works/blackjack/1.jpg"] \
 		}, \
 		"jwviewer": {"title":"JW CAD Viewer", \
 		"comment":"Mobile version CAD Viewer for JWW, JWC, and DXF", \
