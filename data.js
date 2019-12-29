@@ -33,18 +33,6 @@ let data = '{ \
 				"img/works/ski/3.jpg", \
 				"img/works/ski/4.jpg"] \
 		}, \
-		"ski": {"title":"3D Ad about product", \
-		"comment":"3D Ad", \
-		"responsible":"Entire technical part", \
-		"skills":"WebGL/AR/VR", \
-		"cover":"img/works/PlaceAR/1.jpg", \
-		"link":"http://vision3d.visionlab.de/car/", \
-		"video":"./img/works/PlaceAR/video.mp4", \
-		"imgs":[ "img/works/PlaceAR/1.jpg", \
-				"img/works/PlaceAR/2.jpg", \
-				"img/works/PlaceAR/3.jpg", \
-				"img/works/PlaceAR/4.jpg"] \
-		}, \
 	"Driving VR": {"title":"Driving VR", \
 		"comment":"We can dirve the car in VR space", \
 		"responsible":"Entire technical part", \
@@ -114,7 +102,7 @@ let data = '{ \
 		"skills":"Unity3D", \
 		"cover":"img/works/blackjack/1.jpg", \
 		"link":"", \
-		"video":".", \
+		"video":"", \
 		"imgs":[ "img/works/blackjack/1.jpg",\
 				"img/works/blackjack/2.jpg", \
 				"img/works/blackjack/3.jpg", \
