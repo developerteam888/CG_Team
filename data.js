@@ -186,17 +186,6 @@ let data = '{ \
 		"video":"", \
 		"imgs":[ "img/works/room3d/1.jpg"] \
 		},\
-	"masked face": {"title":"masked face AR", \
-		"comment":"We can make our face with masked", \
-		"responsible":"Entire technical part", \
-		"skills":"Unity3D, AR Face Tracking", \
-		"cover":"img/works/unity/AR/masked1.jpg", \
-		"link":"https://photos.app.goo.gl/zv9WPpYkf1Vv7Z3R8", \
-		"video":"", \
-		"imgs":[ "img/works/unity/AR/masked1.jpg", \
-				"img/works/unity/AR/masked2.jpg", \
-				"img/works/unity/AR/masked3.jpg"] \
-		},\
 	"objectdetect": {"title":"Realtime Object Detection", \
 		"comment":"Deep learning based realtime object detection program", \
 		"responsible":"Entire technical part", \
