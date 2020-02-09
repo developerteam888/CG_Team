@@ -77,8 +77,19 @@ ul, li {
   -ms-align-items: center;
   align-items: center;
   height: 480px;
-  background-size: auto 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45)), url(../img/header/rustic-3441673_1920.jpg) center center;
+  background-size: cover;
+
+  @media (min-width: 400px) {
+      .element {
+        background: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45)), url(../img/header/mobile.jpg) center center;
+      }
+  }
+
+  @media (min-width: 1000px) {
+      .element {
+          background: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45)), url(../img/header/rustic-3441673_1920.jpg) center center;
+      }
+  }
 }
 
 #header .logo {
