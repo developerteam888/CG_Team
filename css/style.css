@@ -78,17 +78,27 @@ ul, li {
   align-items: center;
   height: 480px;
   background-size: cover;
-
-  @media (min-width: 400px) {
-      .element {
-        background: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45)), url(../img/header/mobile.jpg) center center;
-      }
+}
+@media (min-width: 300px) {
+  header {
+    background-color: red;
+    background-image: url(../img/header/mobile_small.jpg);
+    background-position: center;
   }
+}
+@media (min-width: 550px) {
+  header {
+    background-color: red;
+    background-image: url(../img/header/mobile.jpg);
+    background-position: center;
+  }
+}
 
-  @media (min-width: 1000px) {
-      .element {
-          background: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.45)), url(../img/header/rustic-3441673_1920.jpg) center center;
-      }
+@media (min-width: 800px) {
+  header {
+    background-color: red;
+    background-image: url(../img/header/rustic-3441673_1920.jpg);
+    background-position: center;
   }
 }
 
@@ -108,15 +118,33 @@ ul, li {
   -webkit-transform: rotate(-10deg);
   transform: rotate(-10deg);
 }
-
 #header .logo-title {
   font-family: 'Oswald', sans-serif;
-  font-size: 94px;
   color: #fff;
   line-height: 1;
   letter-spacing: -2px;
 }
-
+@media screen and (max-width : 400px)
+{
+    header .logo-title
+    {
+        font-size: 13vw !important; 
+    }
+}
+@media screen and (min-width : 500px)
+{
+    header .logo-title
+    {
+        font-size: 13vw; 
+    }
+}
+@media screen and (min-width : 1200px)
+{
+    header .logo-title
+    {
+        font-size: 13vw; 
+    }
+}
 #header .logo-desc {
   display: block;
   font-size: 36px;
