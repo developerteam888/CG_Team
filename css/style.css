@@ -118,40 +118,15 @@ ul, li {
   -webkit-transform: rotate(-10deg);
   transform: rotate(-10deg);
 }
+
 #header .logo-title {
   font-family: 'Oswald', sans-serif;
+  font-size: 94px;
   color: #fff;
   line-height: 1;
   letter-spacing: -2px;
 }
-@media screen and (max-width : 400px)
-{
-    header .logo-title
-    {
-        font-size: 13vw !important; 
-    }
-}
-@media screen and (min-width : 500px)
-{
-    header .logo-title
-    {
-        font-size: 13vw; 
-    }
-}
-@media screen and (min-width : 1200px)
-{
-    header .logo-title
-    {
-        font-size: 13vw; 
-    }
-}
-@media screen and (min-width : 1400px)
-{
-    header .logo-title
-    {
-        font-size: 8vw; 
-    }
-}
+
 #header .logo-desc {
   display: block;
   font-size: 36px;
@@ -522,6 +497,26 @@ ul, li {
   text-align: center;
 }
 
+@media screen and (max-width: 400px) {
+  body {
+    font-size: 13px;
+    line-height: 1.7;
+  }
+  #header {
+    height: 200px;
+  }
+  #header .logo-title {
+    font-size: 40px !important;
+  }
+  #header .logo-name {
+    top: 0;
+    left: -30px;
+    font-size: 25px;
+  }
+  #header .logo-desc {
+    font-size: 11px;
+  }
+}
 /*media Queries 767
 ----------------------------------------------------*/
 
@@ -531,7 +526,7 @@ ul, li {
     line-height: 1.7;
   }
   #header {
-    height: 200px;
+    height: 300px;
   }
   #header .logo-title {
     font-size: 56px;
@@ -542,7 +537,7 @@ ul, li {
     font-size: 25px;
   }
   #header .logo-desc {
-    font-size: 11px;
+    font-size: 17px;
   }
   #gnav li {
     font-size: 14px;
